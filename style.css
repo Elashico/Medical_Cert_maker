@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #152733;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container {
+    background-image: url(./for-graphics/med-cert-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px; /* Increased width for better spacing */
+}
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.form-columns {
+    display: flex;
+    justify-content: space-between;
+}
+.form-column {
+    flex: 1;
+    padding: 0 10px; /* Adjust spacing between columns */
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea {
+    width: 90%;
+    padding: 8px;
+    border: 2px solid #15273398;
+    border-radius: 4px;
+}
+#sex{
+    width: 95%;
+}
+.form-group textarea {
+    resize: vertical;
+}
+.form-group button {
+    width: 70%;
+    padding: 10px;
+    background-color: #152733;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust button margin */
+    margin-left: 15%;
+}
+.form-group button:hover {
+    background-color: #1b3547;
+}

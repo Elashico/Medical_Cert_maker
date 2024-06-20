@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Medical - Certificate</title>
+
+        <!-- google-font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="./for-graphics/clipboard_pulse.svg">
+        
+        <style>
+            body {
+                background: #152733;
+                font-family: 'Inter', sans-serif;
+                margin: 0px;
+                display: flex;
+                justify-content: center; 
+            }
+            .certificate-container {
+                background-image: url(./for-graphics/med-cert-bg.png);
+                background-size: cover;
+                background-position: center;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 75%;
+                margin: 40px 0;
+                border: 2px solid #152733;
+                padding: 20px 50px;
+                border-radius: 10px;
+            }
+            .certificate-container h1 {
+                text-align: center;
+                text-decoration: underline;
+            }
+            #date,.footer {
+                font-size: 20px;
+                text-align: end;
+            }
+            .body{
+                font-size:20px !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="certificate-container">
+            <h1>Medical Certificate</h1>
+            <hr>
+            <p id="date">Date Issued: <!--DATE--></p>
+            <div class="body">
+                <br>
+                <p>This is to verify that <strong><!--NAME--></strong>,  <strong><!--AGE--></strong> years old <strong><!--SEX--></strong> and residing at <strong><!--ADDRESS--></strong> came in for medical examination in clinic on <strong><!--DATE_I--></strong> and the result revealed that they're suffering from <strong><!--ILLNESS--></strong>.</p>
+                <br>
+                <p>This certification is issued upon request of the interested party for local employment purposes only.</p>
+                <br>
+                <br>
+                <br>
+            </div>
+            
+            <div class="footer">
+                <p>______________________________</p>
+                <p>Issued by: <strong><!--DOC--></strong></p>
+            </div>
+            
+        </div>
+    </body>
+</html>
