@@ -71,3 +71,10 @@ body {
 .form-group button:hover {
     background-color: #1b3547;
 }
+
+@media (max-width: 500px) {
+    .form-columns {
+        display: block;
+        padding-top: 50px;
+    }
+}
